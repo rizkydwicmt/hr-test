@@ -23,9 +23,7 @@ class CreatePegawaiTable extends Migration
             $table->date('tgl_gabung');
             $table->string('created_by')->nullable();
             $table->string('updated_by')->nullable();
-            $table->string('deleted_by')->nullable();
             $table->timestamps();
-            $table->softDeletes($column = 'deleted_at', $precision = 0);
         });
 
         //make trigger no_induk

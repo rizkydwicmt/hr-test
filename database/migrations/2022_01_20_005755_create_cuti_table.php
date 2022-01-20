@@ -22,9 +22,7 @@ class CreateCutiTable extends Migration
             $table->string('keterangan');
             $table->string('created_by')->nullable();
             $table->string('updated_by')->nullable();
-            $table->string('deleted_by')->nullable();
             $table->timestamps();
-            $table->softDeletes($column = 'deleted_at', $precision = 0);
         });
     }
 

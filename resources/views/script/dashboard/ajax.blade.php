@@ -100,6 +100,10 @@
                                         $('#tabel_pegawai_ambil_cuti').DataTable()
                                             .ajax
                                             .reload();
+                                        $('#tabel_pegawai_ambil_cuti_lebih')
+                                            .DataTable()
+                                            .ajax
+                                            .reload();
                                     }
                                 });
                             }
@@ -175,6 +179,9 @@
                                     $('#tabel_karyawan').DataTable().ajax.reload();
                                     $('#tabel_cuti').DataTable().ajax.reload();
                                     $('#tabel_pegawai_ambil_cuti').DataTable().ajax
+                                        .reload();
+                                    $('#tabel_pegawai_ambil_cuti_lebih').DataTable()
+                                        .ajax
                                         .reload();
                                 }
                             })
