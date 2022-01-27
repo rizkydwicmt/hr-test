@@ -23,7 +23,7 @@
                     <div class="card-body p-0">
                         <div class="d-flex flex-column">
                             <div class='px-3 py-3 d-flex justify-content-between'>
-                                <h3 class='card-title'>Karyawan</h3>
+                                <h3 class='card-title'>Karyawan asdasd</h3>
                                 <div class="card-title card-right d-flex align-items-center">
                                     {{ $total_karyawan }}
                                 </div>
